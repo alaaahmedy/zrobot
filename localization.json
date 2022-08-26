@@ -1,0 +1,194 @@
+{
+    "c2array": true,
+    "size": [
+        2,
+        30,
+        1
+    ],
+    "data": [
+        [
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "judwa (clone).png"
+            ],
+            [
+                "khel samapt (game over).png"
+            ],
+            [
+                "load ho raha hai (loading).png"
+            ],
+            [
+                "pause.png"
+            ],
+            [
+                "powers ki seems badhaye (upgrade).png"
+            ],
+            [
+                "Robot.png"
+            ],
+            [
+                "second.png"
+            ],
+            [
+                "shuru kare (start).png"
+            ],
+            [
+                "chumbak (magnet).png"
+            ],
+            [
+                "collect armour power to destroy obstacles.png"
+            ],
+            [
+                "collect rocket power to cross the lava.png"
+            ],
+            [
+                "dobara khele (glowing).png"
+            ],
+            [
+                "dobara khele (not glowing).png"
+            ],
+            [
+                "double (multiplayer).png"
+            ],
+            [
+                "home (glowing).png"
+            ],
+            [
+                "home (not glowing).png"
+            ],
+            [
+                "kavach (armour).png"
+            ],
+            [
+                "khareede (glowing).png"
+            ],
+            [
+                "khareede (not glowing).png"
+            ],
+            [
+                "khel jaari rakhe (glowing).png"
+            ],
+            [
+                "khel jaari rakhe (not glowing).png"
+            ],
+            [
+                "rocket (ship).png"
+            ],
+            [
+                "shresth (highest).png"
+            ],
+            [
+                "tap on left and right.png"
+            ],
+            [
+                "tap on left.png"
+            ],
+            [
+                "tap on right.png"
+            ],
+            [
+                "get cubes.png"
+            ],
+            [
+                "play ad to get cubes.png"
+            ],
+            [
+                "no button.png"
+            ],
+            [
+                "yes button.png"
+            ]
+        ]
+    ]
+}

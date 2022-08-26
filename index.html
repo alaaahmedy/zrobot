@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Robo Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <meta name="generator" content="Construct 3">
+
+    <link rel="manifest" href="appmanifest.json">
+    <link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
+    <link rel="icon" type="image/png" href="icons/icon-512.png">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+    <div id="fb-root"></div>
+
+    <noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+
+    <!-- ADS/LANGUAGE -->
+    <script src="/adv/lang.js"></script>
+    <script src="/adv/ads.js"></script>
+    <!-- ADS/LANGUAGE -->
+
+    <script src="scripts/supportcheck.js"></script>
+    <script src="scripts/offlineclient.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/register-sw.js" type="module"></script>
+
+    <script>
+        console.log("version3")
+        const gameQueryParams = {};
+        (() => {
+            try {
+                let url = window.location.search;
+                if (url) {
+                    url = decodeURIComponent(url);
+                }
+                const temp1 = url.split("?");
+                if (temp1 && temp1.length > 1) {
+                    const temp2 = temp1[1].split("&");
+                    if (temp2 && temp2.length) {
+                        temp2.forEach((arr) => {
+                            const temp3 = arr.split("=");
+                            if (temp3 && temp3.length === 2) {
+                                gameQueryParams[temp3[0]] = temp3[1];
+                            }
+                        });
+                    }
+                }
+            } catch (err) {
+                console.log(err);
+            }
+        })();
+
+
+        // gtag('event', <action>, {
+        // 	  'event_category': <category>,
+        // 	  'event_label': <label>,
+        // 	  'value': <value>
+        // });
+
+
+        function sendEvent(state) {
+            gtag('event', state, {
+                'event_category': gameQueryParams["id"]
+            });
+        }
+
+        sendEvent("loaded");
+    </script>
+</body>
+
+</html>
